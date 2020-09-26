@@ -1,0 +1,394 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    overflow: hidden;
+    position: relative;
+    width: 720px;
+    height: 455px;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l {
+    display: none;
+    position: absolute;
+    top: 208px;
+    left: 0;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'icomoon';
+    color: #fff;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 0 20px 20px 0;
+    z-index: 2;
+}
+
+.arrow-l:hover,
+.arrow-r:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 208px;
+    right: 0;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 20px 0 0 20px;
+    z-index: 2;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin: 6px 4px 0;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newflash {
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    border: 1px solid #ccc;
+    height: 163px;
+}
+
+.new_hd {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.new_hd a {
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+
+.new_bg {
+    height: 131px;
+    width: 230px;
+    margin: 10px 15px;
+}
+
+.new_bg li {
+    margin: 5px 0;
+}
+
+.lifeserivce {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.lifeserivce ul {
+    width: 252px;
+}
+
+.lifeserivce li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeserivce li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.lifeserivce li p {
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    margin: 10px auto;
+    height: 24px;
+    width: 24px;
+}
+
+.service_ico_huafei {
+    background: url(../images/icons.png) no-repeat -17px -16px;
+}
+
+.service_ico_feiji {
+    background: url(../images/icons.png) no-repeat -77px -16px;
+}
+
+.service_ico_dianying {
+    background: url(../images/icons.png) no-repeat -141px -16px;
+}
+
+.service_ico_youxi {
+    background: url(../images/icons.png) no-repeat -206px -16px;
+}
+
+.service_ico_caipiao {
+    background: url(../images/icons.png) no-repeat -17px -88px;
+}
+
+.service_ico_jiayou {
+    background: url(../images/icons.png) no-repeat -77px -88px;
+}
+
+.service_ico_goufang {
+    background: url(../images/icons.png) no-repeat -141px -88px;
+}
+
+.service_ico_chepiao {
+    background: url(../images/icons.png) no-repeat -206px -88px;
+}
+
+.service_ico_caifu {
+    background: url(../images/icons.png) no-repeat -77px -159px;
+}
+
+.service_ico_jijin {
+    background: url(../images/icons.png) no-repeat -141px -159px;
+}
+
+.service_ico_qianbao {
+    background: url(../images/icons.png) no-repeat -206px -159px;
+}
+
+.service_ico_baitiao {
+    background: url(../images/icons.png) no-repeat -206px -159px;
+}
+
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../images/jian.jpg);
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+    background: url(../upload/bargain.jpg) no-repeat;
+}
+
+.recommend {
+    margin-top: 10px;
+    height: 173px;
+}
+
+.recom_hd {
+    text-align: center;
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+}
+
+.recom_hd img {
+    margin: 25px 0 10px;
+}
+
+.recom_hd h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.recom_bg {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom_bg li {
+    float: left;
+    margin-top: 10px;
+    width: 248px;
+    height: 143px;
+    border-right: 1px solid #ccc;
+}
+
+.recom_bg .last {
+    border-right: 0;
+}
+
+.floor {
+    height: 2800px;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #b1191a;
+    margin-top: 25px;
+}
+
+.box_hd h3 {
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li a {
+    padding: 0 10px;
+}
+
+.box_bd {
+    height: 360px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.tab_con li {
+    float: left;
+    height: 360px;
+}
+
+.tab_con_list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab_con_list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.box_bd li {
+    overflow: hidden;
+}
+
+.box_bd img {
+    transition: all .2s;
+}
+
+.box_bd img:hover {
+    margin-left: 6px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.fixedtool {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    margin-left: -676px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 65px;
+}
+
+.fixedtool li {
+    height: 33px;
+    line-height: 33px;
+    width: 66px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool li:hover {
+    background-color: #c81623;
+    color: #fff;
+    font-size: 12px;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+    font-size: 12px;
+}
+
+.dao {
+    background-color: rgb(252, 134, 0);
+}
+
+.goback {
+    display: none;
+}

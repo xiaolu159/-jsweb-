@@ -1,0 +1,171 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.registerarea {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 40px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.registerarea h3 em {
+    float: right;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.registerarea a {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.reg_form li {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.reg_form li img {
+    position: absolute;
+    top: 50%;
+    left: 355px;
+    margin-top: -14px;
+    width: 24px;
+    height: 24px;
+}
+
+.pwd span {
+    margin-left: 30px;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.inp {
+    width: 228px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin: 0 0 0 10px;
+    padding-left: 10px;
+}
+
+.error {
+    margin-left: 10px;
+    color: #c81623;
+}
+
+.success {
+    margin-left: 10px;
+    color: #40b83f;
+}
+
+.right,
+.wrong {
+    display: none;
+}
+
+.error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images//success.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.safe {
+    padding-left: 187px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 123px;
+    padding-top: 30px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    margin: 30px 0 0 123px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer {
+    height: 120px;
+    text-align: center;
+}
+
+.links {
+    margin: 20px 0 15px 0;
+}
+
+.copyright {
+    line-height: 18px;
+}
